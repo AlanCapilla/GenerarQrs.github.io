@@ -1,5 +1,5 @@
 h1 {
-    color: #f1f5f9;
+    color: #0f172a;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: #0f172a;
+    background-color: #ffffff;
     gap: 1rem;
 }
 
@@ -35,7 +35,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 10%;
-    background-color: #1e293b;
+    background-color: #f8fafc;
 }
 .contenedor-body{
     display: flex;
@@ -44,7 +44,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 90%;
-    background-color: #1e293b;
+    background-color: #f8fafc;
     gap: 1rem;
 }
 .formulario{
@@ -63,7 +63,7 @@ body{
 .formulario input{
     padding: 0.5rem;
     border-radius: 1rem;
-    border: none;
+    border: solid 1px #94a3b8;
     width: 300px;
 }   
 
@@ -99,7 +99,7 @@ button:hover{
     justify-content: center;
     width: 100%;
     height: 10%;
-    background-color: #1e293b;
+    background-color: #f8fafc;
 }
 .contenedor-footer p{
     color: #94a3b8;
@@ -111,4 +111,9 @@ button:hover{
 
 a:hover{
     text-decoration:underline;
+}
+#qrcode {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
