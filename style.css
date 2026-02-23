@@ -1,0 +1,114 @@
+h1 {
+    color: #f1f5f9;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+label{
+    color: #94a3b8;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: #94a3b8;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f172a;
+    gap: 1rem;
+}
+
+.contenedor-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: #1e293b;
+}
+.contenedor-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    background-color: #1e293b;
+    gap: 1rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.formulario label{
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+.formulario input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 300px;
+}   
+
+.formulario button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 150px;
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contenedor-body button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 150px;
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #2563eb;
+}
+
+.contenedor-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: #1e293b;
+}
+.contenedor-footer p{
+    color: #94a3b8;
+}
+.contenedor-footer a{
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}

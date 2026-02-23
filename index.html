@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR's</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="qr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-header">
+        <h1>Generador de QR</h1>
+    </div>
+    <div class="contenedor-body">
+        <div class="formulario">
+            <label for="">Ingresar URL...</label>
+            <input type="text" name="url" id="url" placeholder="URL...">
+            <button id="generate" onclick="generarQR()">Generate QR Code</button>
+        </div>    
+    
+        <div id="qrCode"></div>
+        <button id="Descargar" onclick="descargarQR()">Descargar QR</button>
+    </div>
+    <div class="contenedor-footer">
+        <p>Desarrollado por: <a href="https://github.com/AlanCapilla/Generador-de-QRs">Alan Capilla</a></p>
+    </div>
+
+</body>
+</html>
